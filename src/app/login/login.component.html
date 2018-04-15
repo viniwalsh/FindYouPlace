@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <form class="form-signin">       
+    <h2 class="form-signin-heading">Login</h2>
+    <input type="text" class="form-control" placeholder="Digite seu email" required="" autofocus="" [(ngModel)]='user.email' name='email'/>
+    <input type="password" class="form-control" name="password" placeholder="Digite sua senha" required="" [(ngModel)]='user.password'/>      
+    <label class="checkbox">
+      <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+    </label>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login(user, pass)">Logar</button>
+    <button class="btn btn-lg btn-danger btn-block"  [routerLink]="['index']">Cancelar</button>  
+  </form>
+</div>

@@ -1,6 +1,57 @@
-<footer class="py-5 bg-dark">
+<footer class="nb-footer">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy;Walsh Enterprise</p>
+  <div class="row">
+  
+  <div class="col-md-3 col-sm-6">
+  <div class="footer-info-single">
+    <h2 class="title">Serviços</h2>
+    <ul class="list-unstyled">
+      <li><a [routerLink]="['sobre']" title=""><i class="fa fa-angle-double-right"></i> Sobre</a></li>
+      <li><a [routerLink]="['cadastrar']" title=""><i class="fa fa-angle-double-right"></i> Cadastrar</a></li>
+      <li><a [routerLink]="['login']" title=""><i class="fa fa-angle-double-right"></i> Login</a></li>
+    </ul>
   </div>
-  <!-- /.container -->
-</footer>
+  </div>
+  
+  <div class="col-md-3 col-sm-6">
+  <div class="footer-info-single">
+    <h2 class="title">Customer information</h2>
+    <ul class="list-unstyled">
+      <li><a [routerLink]="['busca','turismo']" title=""><i class="fa fa-angle-double-right"></i> Pontos Turísticos</a></li>
+      <li><a [routerLink]="['busca','praia']" title=""><i class="fa fa-angle-double-right"></i> Praias</a></li>
+      <li><a [routerLink]="['busca','hotel']" title=""><i class="fa fa-angle-double-right"></i> Hoteis</a></li>
+      <li><a [routerLink]="['busca','restaurante']" title=""><i class="fa fa-angle-double-right"></i> Restaurantes</a></li>
+    </ul>
+  </div>
+  </div>
+  
+  <div class="col-md-3 col-sm-6">
+    <div class="footer-info-single">
+      <h2 class="title">Serviços Emergenciais</h2>
+      <ul class="list-unstyled">
+        <li><a [routerLink]="['busca','bombeiro']" title=""><i class="fa fa-angle-double-right"></i> Bombeiros</a></li>
+        <li><a [routerLink]="['busca','hospital']" title=""><i class="fa fa-angle-double-right"></i> Hospitais</a></li>
+        <li><a [routerLink]="['busca','delegacia']" title=""><i class="fa fa-angle-double-right"></i> Delegacias</a></li>
+      </ul>
+    </div>
+    </div>
+  
+  <div class="col-md-3 col-sm-6">
+  <div class="footer-info-single">
+    <h2 class="title">Walsh Enterprise</h2>
+    <p> </p>
+    
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <section class="copyright">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-6">
+  <p>Copyright © 2018 - Walsh Enterprise</p>
+  </div>
+  </div>
+  </div>
+  </section>

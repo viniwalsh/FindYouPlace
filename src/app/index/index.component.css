@@ -1,0 +1,92 @@
+.jimgMenu {
+    position:relative;
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+    width:475px;
+    height:200px;
+    overflow: hidden;
+    }
+    .jimgMenu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    height: 200px;
+    position: relative;
+    }
+    .jimgMenu ul li {
+    width: 95px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    }
+    .jimgMenu ul li a {
+    text-indent: -1000px;
+    background:#fff repeat scroll 0%;
+    border-right: 2px solid #fff;
+    cursor:pointer;
+    display:block;
+    overflow: hidden;
+    height: 200px;
+    }
+    .jimgMenu ul li#landscapes a {
+    background: url(/assets/images/landscapes.jpg) repeat scroll 0%;
+    }
+    .jimgMenu ul li#people a {
+    background: url(/assets/images/people.jpg) repeat scroll 0%;
+    }
+    .jimgMenu ul li#nature a {
+    background: url(/assets/images/nature.jpg) repeat scroll 0%;
+    }
+    .jimgMenu ul li#abstract a {
+    background: url(/assets/images/abstract.jpg) repeat scroll 0%;
+    }
+    .jimgMenu ul li#urban a {
+    background: url(/assets/images/urban.jpg) repeat scroll 0%;
+    border-right-style: none;
+    }
+
+    .icon-bar {
+        width: 100%; /* Full-width */
+        background-color: #555; /* Dark-grey background */
+        overflow: auto; /* Overflow due to float */
+    }
+    
+    .icon-bar a {
+        float: left; /* Float links side by side */
+        text-align: center; /* Center-align text */
+        width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+        padding: 12px 0; /* Some top and bottom padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 36px; /* Increased font size */
+    }
+    
+    .icon-bar a:hover {
+        background-color: white; /* Add a hover color */
+        color: black;
+    }
+    
+    .active {
+        background-color: #4CAF50; /* Add an active/current color */
+    }
+
+    .hospital {
+        background-color: red; 
+    }
+
+    .policia{
+        background-color: blue;
+    }
+
+    .restaurante{
+        background-color: orangered;
+    }
+
+    .praia{
+        background-color: orange;
+    }
+    
+    agm-map {
+        height: 300px;
+      }

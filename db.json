@@ -1,0 +1,142 @@
+{
+    "hospital":[
+        {
+            "Nome": "Hospital Estadual Getúlio Vargas",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagesapt.apontador-assets.com%2Ffit-in%2F640x480%2F506ac487efcc42f4a915d6c225610a4f%2Fhospital-estadual-getulio-varg.jpg&f=1",
+            "endereco":"Av. Lobo Júnior, 2293",
+            "bairro":"Penha Circular",
+            "horario":"Aberto 24h"
+        },
+        {
+            "Nome": "Hospital Mário Kroeff",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-LJJvASoiHJM%2FTjdbC42vDFI%2FAAAAAAAADwc%2FonVgdpaYeK0%2Fs320%2FHospital_Mario_Kroeff.jpg&f=1",
+            "endereco":"Rua Magé, 326",
+            "bairro":"Penha Circular"
+        },
+  	    {
+            "Nome": "Hospital Pasteur",
+            "imagem":"https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fwww.soumeier.com.br%2Fwp-content%2Fuploads%2F2013%2F12%2Fpasteur-1132x670.jpg&u=https://www.soumeier.com.br/wp-content/uploads/2013/12/pasteur-1132x670.jpg",
+            "endereco":"Av. Amaro Cavalcanti, 495",
+            "bairro":"Meier"
+        },
+        {
+            "Nome": "Hospital Memorial",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F_M1zg0keE0pw%2FS-_5o3npQxI%2FAAAAAAAAE9c%2FjMnVCYs-KLM%2Fs320%2Fpeq_Memorial_Fuad_Chidid.jpg&f=1",
+            "endereco":"R. José dos Reis, 81", 
+            "bairro":"Engenho de Dentro"
+        },
+        {
+            "Nome": "Hospital Quinta D'Or",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rnw.com.br%2Fimages%2Fquinta-portifolio.jpg&f=1",
+            "endereco":"R. Alm. Baltazar, 435",
+            "bairro":"São Cristóvão"
+        },
+   	    {
+            "Nome": "Hospital Municipal Salgado Filho",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fs2.glbimg.com%2FhR7gfL63u4WhTWWhMzY2aSoiuL8%3D%2F1200x630%2Ffilters%3Amax_age(3600)%2Fs02.video.glbimg.com%2Fdeo%2Fvi%2F73%2F50%2F2315073&f=1",
+            "endereco":"R. Arquias Cordeiro, 370",
+            "bairro":"Meier"
+        },
+        {
+            "Nome": "Hospital Irajá",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.hospitaliraja.com.br%2Fimages%2Fnovo-hospital-iraja.jpg&f=1",
+            "endereco":"R. Pereira de Araújo, 44",
+            "bairro":"Irajá"
+        },
+	    {
+            "Nome": "Hospital Federal do Andaraí",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jb.com.br%2Fmedia%2Ffotos%2F2012%2F04%2F24%2F627w%2Fhospital-federal-do-andarai.jpg&f=1",
+            "endereco":"R. Leopoldo, 280",
+            "bairro":"Andarai"
+        },
+	    {
+            "Nome": "Hospital Norte D'Or",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rnw.com.br%2Fimages%2Fnorte-portifolio.jpg&f=1",
+            "endereco":"R. Carolina Machado, 38",
+            "bairro":"Cascadura"
+        },
+	    {
+            "Nome": "Hospital Estadual Carlos Chagas",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.ataqueaoscofrespublicos.com%2Fwp-content%2Fuploads%2F2015%2F04%2Fhospital-carlos-chagas.jpg&f=1",
+            "endereco":"Avenida General Osvaldo Cordeiro de Farias, 466",
+            "bairro":"Marechal Hermes"
+        }
+    ],
+
+        "restaurante" :[
+        {
+            "Nome": "Bar e Restaurante Tamojunto",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fb.zmtcdn.com%2Fdata%2Fpictures%2F1%2F7303061%2Ffd579a34f8c3b3deee0fe23834fab2a8_featured_v2.jpg&f=1",
+            "endereco":"Av. Dom Hélder Câmara, 3280 - Del Castilho"
+        },
+        {
+            "Nome": "Beluga",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagesapt.apontador-assets.com%2Ffit-in%2F640x480%2Ff109f3194b4046aeadb02a257e7c2694%2Fshopping-nova-america.jpg&f=1",
+            "endereco":"Av. Pastor Martin Luther King Junior, 126 - Del Castilho"
+        },
+        {
+            "Nome": "Restaurante À Mineira",
+            "imagem":"https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2Fdiariodorio.com%2Fwp-content%2Fuploads%2F2015%2F01%2FNorteShopping.jpg&u=https://diariodorio.com/wp-content/uploads/2015/01/NorteShopping.jpg",
+            "endereco":"Av. Dom Hélder Câmara, 5332 - Loja 3906 - Cachambi"
+        },
+        {
+            "Nome": "Spoleto",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagesapt.apontador-assets.com%2Ffit-in%2F640x480%2Ff109f3194b4046aeadb02a257e7c2694%2Fshopping-nova-america.jpg&f=1",
+            "endereco":"Av. Pastor Martin Luther King Junior, 126 - Del Castilho"
+        },
+        {
+            "Nome": "Gendai",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagesapt.apontador-assets.com%2Ffit-in%2F640x480%2Ff109f3194b4046aeadb02a257e7c2694%2Fshopping-nova-america.jpg&f=1",
+            "endereco":"Av. Pastor Martin Luther King Junior, 126 - Del Castilho"
+        },
+        {
+            "Nome": "Gourmet Londres",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-cdn.tripadvisor.com%2Fmedia%2Fphoto-s%2F05%2F60%2Fde%2F61%2Ftalisma-churrascaria.jpg&f=1",
+            "endereco":" Av. Londres, 526 - Bonsucesso"
+        },
+        {
+            "Nome": "Kimura Culinária Japonesa",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimg.grouponcdn.com%2Fdeal%2FuHYgZFD4gMZrFepqw2Ms%2FME-700x420&f=1",
+            "endereco":" R. Gonzaga Bastos, 56 - Tijuca"
+        },
+        {
+            "Nome": "Restaurante Transa (melhor restaurante [apaga isso dps])",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F1.kekantoimg.com%2FLcrUhO2kPAjsqWX4e48tSGuabzM%3D%2F300x300%2Fs3.amazonaws.com%2Fkekanto_pics%2Fpics%2F53%2F1633053.jpg&f=1",
+            "endereco":"R. Silva Rabêlo, 65 - Loja B - Meier"
+        },
+        {
+            "Nome": "Castellone Restaurante & Pizzaria",
+            "imagem":"https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.0-9/16681807_1220671997981891_6582839005015631825_n.jpg?_nc_cat=0&oh=07ad9e437585128aaf45a2dc27a4d1f8&oe=5B6D5565",
+            "endereco":"Rua Capitão Rezende, 355 - Cachambi"
+        },
+        {
+            "Nome": "Restaurante Siri - Tijuca",
+            "imagem":"https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.timeout.com.br%2FcontentFiles%2Fimage%2Frj%2FNEW_IMAGES%2F02_RESTAURANTS%2Fsirifinal.jpg&f=1",
+            "endereco":"R. dos Artistas, 2 - Vila Isabel"
+        }
+    ],
+
+        "praia":[
+        {
+            "Nome": "Bar 1",
+            "endereco":"Bla bla rua"
+        },
+        {
+            "Nome": "Bar 2",
+            "endereco":"Bla bla Bla"
+        }
+    ],
+
+        "delegacia":[
+        {
+            "Nome": "Bar 1",
+            "imagem":"",
+            "endereco":"Bla bla rua"
+        },
+        {
+            "Nome": "Bar 2",
+            "imagem":"",
+            "endereco":"Bla bla Bla"
+        }
+    ]
+}

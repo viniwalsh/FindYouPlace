@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BuscaUnicaComponent } from './busca-unica.component';
+import { CadastroComponent } from './cadastro.component';
 
-describe('BuscaUnicaComponent', () => {
-  let component: BuscaUnicaComponent;
-  let fixture: ComponentFixture<BuscaUnicaComponent>;
+describe('CadastroComponent', () => {
+  let component: CadastroComponent;
+  let fixture: ComponentFixture<CadastroComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BuscaUnicaComponent ]
+      declarations: [ CadastroComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BuscaUnicaComponent);
+    fixture = TestBed.createComponent(CadastroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

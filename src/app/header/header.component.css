@@ -1,0 +1,11 @@
+nav {
+    background: #222;
+    border-bottom: 4px solid #b78c33; 
+}
+    
+ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33; 
+}
+  
