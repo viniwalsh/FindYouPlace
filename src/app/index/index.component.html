@@ -1,3 +1,4 @@
+<div id="google_translate_element">
 <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -6,11 +7,11 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active" style="background-image: url('../assets/images/pontos-turisticos.jpg')">
+      <div class="carousel-item active" style="background-image: url('../assets/images/pontos-turisticos.jpg')" title="Foto da Praia do Rio de janeiro">
       </div>
-      <div class="carousel-item" style="background-image: url('../assets/images/cristoredentor.jpg')">
+      <div class="carousel-item" style="background-image: url('../assets/images/cristoredentor.jpg')" title="Foto do Cristo Redentor a noite com a cidade do rio de janiero iluminada">
       </div>
-      <div class="carousel-item" style="background-image: url('../assets/images/bondinho.jpeg')">
+      <div class="carousel-item" style="background-image: url('../assets/images/bondinho.jpeg')" title="Foto do Bondinho descendo o Pão de Açucar numa tarde ao por do sol, no rio do janeiro.">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -27,19 +28,19 @@
 <div class="container">
   <div class="icon-bar">
     <a class="active" href="#">
-      <i class="fa fa-home"></i>
+      <i class="fa fa-home" title="Hotel"></i>
     </a>
     <a [routerLink]="['busca','delegacia']" class="policia">
-      <i class="material-icons" style="font-size:36px" name="delegacia">local_taxi</i>
+      <i class="material-icons" style="font-size:36px" name="delegacia" title="Delegacia">local_taxi</i>
     </a>
     <a [routerLink]="['busca','praia']" class="praia">
-      <i class="material-icons" style="font-size:36px">beach_access</i>
+      <i class="material-icons" style="font-size:36px" title="Praia">beach_access</i>
     </a>
     <a [routerLink]="['busca','hospital']" class="hospital">
-      <i class="fa fa-ambulance"></i>
+      <i class="fa fa-ambulance" title="Hospital"></i>
     </a>
     <a [routerLink]="['busca','restaurante']" class="restaurante">
-      <i class="material-icons" style="font-size:36px">restaurant</i>
+      <i class="material-icons" style="font-size:36px" title="Restaurante">restaurant</i>
     </a>
   </div>
 
@@ -47,76 +48,65 @@
 
   </div>
 
-  <div class="row mb-4">
-    <div class="col-md-8">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam
-        harum neque nemo praesentium cum alias asperiores commodi.</p>
-    </div>
-    <div class="col-md-4">
-      <a class="btn btn-lg btn-secondary btn-block" href="#">Encontre aqui</a>
-    </div>
-  </div>
-
   <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project One</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque
-              deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-          </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#">
+          <img class="card-img-top" src="../../assets/images/images.jpg" alt="Aqua Rio">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Aqua Rio</a>
+          </h4>
+          <p class="card-text">O Aquário Marinho do Rio de Janeiro, ou AquaRio, é um aquário público situado no bairro da Gamboa, na Zona Central da cidade do Rio de Janeiro!</p>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Two</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Three</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus
-              et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-          </div>
-        </div>
-      </div>
-
-
-  <div class="row">
-    <div class="col-lg-6">
-      <h2>Encontre com facilidade</h2>
-      <ul>
-        <li>
-          <strong>Estádios</strong>
-        </li>
-        <li>Praias</li>
-        <li>Restaurantes</li>
-        <li>Serviços Emergenciais</li>
-      </ul>
-      <p>Tudo isso e muito mais você encontra aqui, com facilidade e praticidade que so a Walsh Enterprise tem a oferecer.</p>
     </div>
-    <div class="col-lg-6">
-      <img class="img-fluid rounded" src="../../assets/images/mapario.jpg" alt="">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#">
+          <img class="card-img-top" src="../../assets/images/materia-1.jpg" alt="">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Shows</a>
+          </h4>
+          <p class="card-text">Venha se divertir com grandes shows!</p>
+        </div>
+      </div>
     </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#">
+          <img class="card-img-top" src="../../assets/images/maracana.jpg" alt="Olimpiadas Rio 2016">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Project Three</a>
+          </h4>
+          <p class="card-text">Venha conferir o show de abertura Rio 2016</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Encontre com facilidade</h2>
+        <ul>
+          <li>
+            <strong>Estádios</strong>
+          </li>
+          <li>Praias</li>
+          <li>Restaurantes</li>
+          <li>Serviços Emergenciais</li>
+        </ul>
+        <p>Tudo isso e muito mais você encontra aqui, com facilidade e praticidade que so a Walsh Enterprise tem a oferecer.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="../../assets/images/mapario.jpg" alt="">
+      </div>
+    </div>
+    <hr>
+
   </div>
-  <!-- /.row -->
-
-  <hr>
-
 </div>

@@ -13,6 +13,8 @@
           <div class="card-body">
             <h2 class="card-title">{{local.Nome}}</h2>
             <p class="card-text">{{ local.endereco }}</p>
+            <p class="card-text">{{ local.bairro }}</p>
+            <p class="card-text">{{ local.horario }}</p>
           </div>
         </div>
       </div>
@@ -23,7 +25,7 @@
         <h5 class="card-header">Buscar</h5>
         <div class="card-body">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Buscar por...">
+            <input >
             <span class="input-group-btn">
               <button class="btn btn-secondary" type="button" (click)="buscar()">Ir !</button>
             </span>
@@ -35,31 +37,30 @@
         <h5 class="card-header">Filtros</h5>
         <div class="card-body">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-10">
               <ul class="list-unstyled mb-0">
                 <li>
-                    <div class="price-slider">
-                  <a href="#">Web Design</a>
+                  <div class="form-group">
+                    <label for="sel1">Status</label>
+                    <select class="form-control" id="sel1">
+                      <option>Aberto</option>
+                      <option>Fechado</option>
+                    </select>
                   </div>
                 </li>
                 <li>
-                  <a href="#">HTML</a>
+                    <select type="text" class="form-control" name="place" id= "busca_place">
+                        <option  [routerLink]="['busca','delegacia']" value="Bombeiros">Bombeiros</option>
+                        <option value="Hospitais">Hospitais</option>
+                        <option value="Delegacias">Delegacias</option>
+                        <option value="Turísticos">Pontos Turísticos</option>
+                        <option value="Praias">Praias</option>
+                        <option value="Hoteis">Hoteis</option>
+                        <option value="Restaurantes">Restaurantes</option>
+                      </select>
                 </li>
                 <li>
-                  <a href="#">Freebies</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#">JavaScript</a>
-                </li>
-                <li>
-                  <a href="#">CSS</a>
-                </li>
-                <li>
-                  <a href="#">Tutorials</a>
+                  
                 </li>
               </ul>
             </div>
