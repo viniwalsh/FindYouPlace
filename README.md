@@ -1,5 +1,7 @@
 # Findyourplace
 
+Primeiro projeto de Bloco da Faculdade de Analise e Desenvolvimento de Sistemas, referente ao bloco de Front-End, realizado em 2018
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
